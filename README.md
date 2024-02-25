@@ -5,7 +5,7 @@ Here is the usage of this template:
  - Easy to use & lightweight
  - Antispam system
  - Blacklist endpoint
- - Documentation (Soon)
+ - Documentation
  - Easy to handle get and post parameters
 
 # To create a route 
