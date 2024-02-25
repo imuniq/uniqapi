@@ -19,7 +19,7 @@ Register a route with options
 
 Here is the example code:
 ```python
-@app.register_route(name="test", info="Testing plugin route...", anti_spam=4)
+@app.create_route(name="test", info="Testing plugin route...", anti_spam=4)
 def test_plugin():
     # rest of your codes
     return app._jsonify(message="example plugin route created...")
@@ -28,7 +28,7 @@ def test_plugin():
 You can use `app._set_params()` to set required parameters
 Here is the example code:
 ```python
-@app.register_route(name="params", info="Testing plugin route...", anti_spam=4, params=[{
+@app.create_route(name="params", info="Testing plugin route...", anti_spam=4, params=[{
                         "name": "hello",
                        "required": True,
                         "info": "The parameter is required"
