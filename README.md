@@ -11,7 +11,7 @@ Here is the usage of this template:
 # To create a route 
 Must import required modules when creating a new route in a new file
 ```python
-from Api import app
+from Uniqapi import app
 ```
 Register a route with options
 - You can set antispam time for each route `anti_spam=5`
@@ -54,6 +54,6 @@ print(params.hello) # Output: world
 ## To launch the Api
 
 ```bash
-python -m Api
+python -m Uniqapi
 ```
 
