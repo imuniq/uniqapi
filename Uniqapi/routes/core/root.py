@@ -42,7 +42,7 @@ def render_index():
            "title":"If you encounter any bugs or glitches while using this endpoint, we encourage you to reach out to us via email at support@rapidapi.tech"
         },
         "copyright":{
-           "text": f"Made with Flask By @UniqDev | All rights reserved © {year}"
+           "text": f"Made with Flask By @imuniq | All rights reserved © {year}"
         }
     }
     return render_template("app.html", data=data)
